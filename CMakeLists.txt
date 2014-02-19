@@ -190,6 +190,9 @@ add_custom_target(dist
 
   COMMAND "${CMAKE_COMMAND}" -E copy_directory
      "${PROJECT_SOURCE_DIR}/tests" "${DIST_SOURCES_DIR}/tests"
+
+  COMMAND "${CMAKE_COMMAND}" -E copy_directory
+     "${PROJECT_SOURCE_DIR}/tests" "${DIST_SOURCES_DIR}/examples"
     
   # Create archive:
   COMMAND tar cJf pyviennacl_${VERSION}.orig.tar.xz
