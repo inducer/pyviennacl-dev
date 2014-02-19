@@ -1,4 +1,4 @@
-pyviennacl (1.0.0-1) unstable; urgency=low
+pyviennacl (1.0.0-0ubuntu1) trusty; urgency=low
 
   * Initial release (Closes: #732921)
 
